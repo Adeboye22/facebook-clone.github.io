@@ -131,10 +131,12 @@ hr{
     font-size: 14px;
     margin-left: 5em;
 }
-.create-pg{
+.create-pg strong{
     font-family: 'inter';
     color: black;
 }
-.create-pg:hover{
+.create-pg strong:hover{
     text-decoration: underline;
 }
+
+/* for iphone screen size*/
