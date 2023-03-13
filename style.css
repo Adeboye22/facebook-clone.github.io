@@ -20,6 +20,14 @@ header {
     border-radius: 3px;
     cursor: pointer;
 }
+#toggle-btn{
+    display: none;
+}
+.thm{
+    background-color:black;
+    color:white;
+    display: none;
+}
 .main-wrap{
     display: flex;
     margin-top: 170px;
@@ -140,3 +148,33 @@ hr{
 }
 
 /* for iphone screen size*/
+@media (max-width: 414px) {
+    #toggle-btn {
+        display: block ;
+        margin-right: 30px;
+        width: 10px;
+        font-size: 30px;
+        position:relative;
+    }
+    #theme-btn{
+        display: none;
+    }
+    .thm{
+        display: none;
+        width:100%;
+    }
+    .thm ul{
+        display:flex;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        width: 100%;
+        padding: 20px 0px 20px 0px
+    }
+    .thm.active {
+        display: flex;
+    }
+}
