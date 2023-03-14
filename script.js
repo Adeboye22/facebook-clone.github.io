@@ -12,7 +12,20 @@ var isBlack = false;
 toggleBtn.addEventListener("click", navMobile)
 
 //this function changes the theme of the mobile app
-chngThm.addEventListener("click", function mobileTheme() {
+chngThm.addEventListener("click", mobileTheme)
+
+//this function changes the theme of the app in desktop mode
+theme.addEventListener("click", myBtn);
+
+
+
+// invoke this function in navMobile above
+function navMobile() {
+    thm.classList.toggle('active')
+};
+
+//invoke this function in mobileTheme above
+function mobileTheme() {
     if(isBlack) {
         //if black
         body.style.background = "rgb(234, 234, 234)";
@@ -51,15 +64,6 @@ chngThm.addEventListener("click", function mobileTheme() {
         }
     }
     isBlack = !isBlack
-})
-//this function changes the theme of the app in desktop mode
-theme.addEventListener("click", myBtn);
-
-
-
-// invoke this function in navMobile above
-function navMobile() {
-    thm.classList.toggle('active')
 };
 
 // call this function in myBtn above
