@@ -9,7 +9,7 @@
 - Author
 
 ## Description
-This app was built as a learning process to further my knowledge and skills on front end technology. It was inspired from the facebook original login, and include the theme feature right from the login page.
+This app was built as a learning process to further my knowledge and skills on frontend technology. It was inspired from the facebook original login page, and include the theme feature right from the login page.
 
 ## Features
 - Dark mode theme
